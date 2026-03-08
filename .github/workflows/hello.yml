@@ -6,9 +6,9 @@ on:
       - main
 jobs:
   greet:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
   steps:
-    - name: say hello to users
-      run: echo "Hello"
-    - name: say hello to users
-      run: echo "Hello $USER"
+   - name: say hello to users
+     run: echo "Hello"
+   - name: say hello to users
+     run: echo "Hello $USER"
